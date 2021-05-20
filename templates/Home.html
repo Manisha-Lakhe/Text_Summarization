@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Summarization</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1><b>TEXT SUMMARIZATION</b></h1>
+    </header>
+
+    <div class="container">
+        <form action="{{ url_for('summarize')}}" method="POST">
+            <h3>Input:</h3>
+
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br>
+            <p><b>OR</b></p>
+            <p>Enter Your Text Here:</p>
+            <textarea name="text" rows="12" cols="120"></textarea><br><br>
+
+            <input type="submit" value="Summarize" >
+        </form>
+    </div>
+</body>
+
+</html>
