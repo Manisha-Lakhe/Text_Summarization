@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+	  height:120px;
+	  width:100%;
+	  padding-top:30px;
+    background-color: lightsteelblue;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family:Courier New;
+  } 
+
+  .container {
+    border-radius: 5px;
+    border: 3px solid;
+    padding: 20px;
+  }
+
+  input[type=submit]{
+    border: 2px solid;
+    background-color:lightsteelblue; 
+    padding: 10px;
+    border-radius: 3px;
+  }
