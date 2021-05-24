@@ -19,7 +19,7 @@ h1{
     padding: 20px;
   }
 
-  input[type=submit]{
+  .btn-cls{
     border: 2px solid;
     background-color:lightsteelblue; 
     padding: 10px;
