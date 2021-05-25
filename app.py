@@ -60,6 +60,5 @@ def summarize():
 
 	return render_template('Result.html', summary=summary)
 
-
 if __name__ == '__main__':
 	app.run(debug=True)
